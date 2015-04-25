@@ -230,7 +230,7 @@ var myEtsyProducts = (function(){
         function createTextItem(tag,name,text,maxLength) {
             var textItem = document.createElement(tag);
             textItem.className = "etsy-product-" + name;
-            if (Number.isInteger(maxLength) && text.length > maxLength) {
+            if (typeof maxLength == "number" && text.length > maxLength) {
                 textItem.innerHTML = text.substring(0,maxLength) + "...";
             } else {
                 textItem.innerHTML = text;
