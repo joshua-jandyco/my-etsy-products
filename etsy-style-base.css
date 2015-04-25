@@ -1,0 +1,22 @@
+.etsy-product {
+    border: solid 1px #888;
+}
+
+.etsy-product-price {
+    color: green;
+    margin-bottom: 0;
+}
+
+.etsy-attribution {
+    font-size: .8em;
+}
+
+.etsy-product-image {
+    height: 170px;
+    width: 170px;
+}
+
+.spinner {
+    margin: 0 auto 0 auto;
+    display: block;
+}

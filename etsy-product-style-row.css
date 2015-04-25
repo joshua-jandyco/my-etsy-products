@@ -1,0 +1,24 @@
+.etsy-product {
+    display: block;
+    overflow:hidden; 
+    width: 80%;
+    margin: 0 auto 20px auto;
+    padding: 2px;
+}
+
+.etsy-product-description {
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.etsy-product-title,
+.etsy-product-price {
+    padding: 0px;
+    margin: 0px;
+}
+
+.etsy-product-image {
+    float: left;
+    margin-right: 10px;
+    clear:both;
+}
