@@ -14,7 +14,8 @@
         <link rel="stylesheet" href="http://css-spinners.com/css/spinner/spinner.css" type="text/css" />
         <script>
             window.onload = function() {
-                myEtsyProducts.init("my-products","storeIdHere", "storeNameHere", 1, 'api-key-here');
+                var options = {itemsPerPage: 10, descriptionLength: 350};
+                myEtsyProducts.init("my-products","storeIdHere", "storeNameHere", 1, 'api-key-here', options);
             }
         </script>
     </head>
@@ -65,7 +66,7 @@
                     <pre>
 &lt;script&gt;
     window.onload = function() {
-        var options = {itemsPerPage: 10, descriptionLength: 350}
+        var options = {itemsPerPage: 10, descriptionLength: 350};
         myEtsyProducts.init("my-products","yourstorId", "yourStoreNameAsSeenInUrl" 1, 'your-api-key-here', options);
     }
 &lt;/script&gt; </pre>
